@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Tabela Nome Telefone</title>
+</head>
+<body>
+    <div class="bloco">
+        <h1> CADASTRO : NOME - TELEFONE </h1>
+        <form id="form-atividade">
+            <input type="text" id="nome" required placeholder="Nome"/>
+            <input type="number" id="telefone" requied placeholder="Telefone" >
+            <button type="submit">Adicionar +</button>
+        </form> 
+        
+        <table cellspacing="0" >
+            <thead><!-- Cabeçalho da Tabela -->
+                <tr><!-- Linha do Cabeçalho da Tabela -->
+                    <th> Nome  </th><!-- Coluna 1 do Cabeçalho da Tabela -->
+                    <th> Telefone </th><!-- Coluna 2 do Cabeçalho da Tabela -->
+                </tr>
+            </thead>
+            <tbody><!-- Cabeçalho da Tabela -->
+                <tr><!-- Linha do Cabeçalho da Tabela -->
+                    <td id="colNome">---</td><!-- Coluna 1 do Cabeçalho da Tabela -->
+                    <td id="colTel">---</td><!-- Coluna 2 do Cabeçalho da Tabela -->
+                </tr>
+            </tbody>               
+        </table>  
+    </div> 
+    <script src="./main.js"></script> 
+</body>
+</html>
